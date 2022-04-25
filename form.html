@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <form action="/JEEZ">
+        <label for="firstName">First Name</label>
+        <input type="text" name="firstName" id="firstName" required minlength="1">
+        <label for="lirstName">Last Name</label>
+        <input type="text" name="lirstName" id="lirstName" required minlength="1">
+        <hr>
+
+        <br>
+
+        <p>Select a Race</p>
+
+        <br>
+
+        <label for="FUNFUKRUN">FUNFUKRUN</label>
+        <input type="radio" name="raceType" id="FUNFUKRUN" value="FUNFUKRUN">
+        <br>
+        <label for="HALFFUKRUN">HALFFUKRUN</label>
+        <input type="radio" name="raceType" id="HALFFUKRUN" value="HALFFUKRUN">
+        <br>
+
+        <label for="FULLFUKRUN">FULLFUKRUN</label>
+        <input type="radio" name="raceType" id="FULLFUKRUN" value="FULLFUKRUN">
+        <br>
+
+        <label for="email">EMAIL</label>
+        <input type="email" name="email" id="email" required>
+
+        <label for="password">Password</label>
+        <input type="password" name="password" id="password" required minlength="5">
+        <br>
+
+        <label for="AGES">Select Age GGGGroup</label>
+        <select name="AGES" id="AGES">
+            <option value="under 18">Under 18</option>
+            <option value="18-50">18-50</option>
+            <option value="50+">50+</option>
+
+        </select>
+        <br>
+        <br>
+
+        <p>
+            <label for="runLoveMeter">And just before we start, how much do ya love running in 100 grade?</label>
+        </p>
+        <input type="range" id="runLoveMeter" name="runLoveMeter">
+
+        <button>IKUZO</button>
+    </form>
+
+</body>
+
+</html>

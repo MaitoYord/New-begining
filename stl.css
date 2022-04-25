@@ -1,0 +1,22 @@
+.band-photo {
+    margin: auto;
+}
+
+#start {
+    text-align: center;
+}
+
+.jkl {
+    font-size: 40px;
+}
+
+.adf {
+ font-size: 3em;
+ margin-left: 1em;
+} 
+
+button {
+    font-size: 3em;
+    padding: 0 1em;
+    border-radius: 0.5em;
+}
